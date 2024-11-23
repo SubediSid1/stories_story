@@ -1,0 +1,199 @@
+{
+    "id": "story2",
+    "title": "The Haunted Mansion",
+    "background": "https://example.com/haunted_mansion_background.jpg",
+    "chapters": [
+      {
+        "chapter_id": 1,
+        "title": "The Will",
+        "dialogues": [
+          {
+            "character": "Narrator",
+            "text": "You receive a letter stating that you've inherited an old mansion from a relative you've never met. It’s located deep in the countryside.",
+            "choices": [
+              {
+                "text": "Go to the mansion to claim your inheritance",
+                "consequence": {
+                  "next_dialogue": 2
+                }
+              },
+              {
+                "text": "Ignore the letter and leave it for later",
+                "consequence": {
+                  "next_dialogue": 3
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "chapter_id": 2,
+        "title": "Strange Noises",
+        "dialogues": [
+          {
+            "character": "Narrator",
+            "text": "You arrive at the mansion and decide to spend the night. As midnight strikes, you hear strange noises coming from the attic.",
+            "choices": [
+              {
+                "text": "Investigate the noise",
+                "consequence": {
+                  "next_dialogue": 4
+                }
+              },
+              {
+                "text": "Lock yourself in your room",
+                "consequence": {
+                  "next_dialogue": 5
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "chapter_id": 3,
+        "title": "The Ghostly Figure",
+        "dialogues": [
+          {
+            "character": "Narrator",
+            "text": "You go upstairs and find a ghostly figure hovering near the old grandfather clock. The air feels cold.",
+            "choices": [
+              {
+                "text": "Ask the ghost who it is",
+                "consequence": {
+                  "next_dialogue": 6
+                }
+              },
+              {
+                "text": "Flee down the stairs in panic",
+                "consequence": {
+                  "next_dialogue": 7
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "chapter_id": 4,
+        "title": "A Hidden Secret",
+        "dialogues": [
+          {
+            "character": "Narrator",
+            "text": "You find out the ghost was your great-uncle, who was searching for a lost family heirloom hidden somewhere in the house.",
+            "choices": [
+              {
+                "text": "Help the ghost find the heirloom",
+                "consequence": {
+                  "next_dialogue": 8
+                }
+              },
+              {
+                "text": "Leave the mansion immediately",
+                "consequence": {
+                  "next_dialogue": 9
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "chapter_id": 5,
+        "title": "The Escape",
+        "dialogues": [
+          {
+            "character": "Narrator",
+            "text": "You lock yourself in your room and wait for the morning, but the eerie noises continue. You realize you can’t escape.",
+            "choices": [
+              {
+                "text": "Investigate the noises again",
+                "consequence": {
+                  "next_dialogue": 4
+                }
+              },
+              {
+                "text": "Leave the mansion immediately",
+                "consequence": {
+                  "next_dialogue": 9
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "chapter_id": 6,
+        "title": "The Ghost’s Request",
+        "dialogues": [
+          {
+            "character": "Narrator",
+            "text": "The ghost explains it’s trapped and needs your help to find the lost heirloom. You decide to help.",
+            "choices": [
+              {
+                "text": "Search the house for the heirloom",
+                "consequence": {
+                  "next_dialogue": 8
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "chapter_id": 7,
+        "title": "A New Beginning",
+        "dialogues": [
+          {
+            "character": "Narrator",
+            "text": "You find the heirloom hidden beneath the floorboards. The ghost thanks you before fading away, and you inherit the mansion peacefully.",
+            "choices": [
+              {
+                "text": "End the journey",
+                "consequence": {
+                  "next_dialogue": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "chapter_id": 8,
+        "title": "The Haunted Escape",
+        "dialogues": [
+          {
+            "character": "Narrator",
+            "text": "You flee from the mansion, leaving the ghost behind. As you leave, the mansion seems to vanish into the mist.",
+            "choices": [
+              {
+                "text": "End the journey",
+                "consequence": {
+                  "next_dialogue": null
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "chapter_id": 9,
+        "title": "The End of the Mystery",
+        "dialogues": [
+          {
+            "character": "Narrator",
+            "text": "You decide not to help the ghost, and the mansion is left to rot. The mystery of your great-uncle’s death remains unsolved.",
+            "choices": [
+              {
+                "text": "End the journey",
+                "consequence": {
+                  "next_dialogue": null
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
