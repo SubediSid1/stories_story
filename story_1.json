@@ -1,0 +1,163 @@
+{
+  "id": "story1",
+  "title": "The Lost Treasure",
+  "background": "https://example.com/background_image.jpg",
+  "chapters": [
+    {
+      "chapter_id": 1,
+      "title": "The Mysterious Map",
+      "dialogues": [
+        {
+          "character": "Narrator",
+          "text": "You find an old, dusty map in the attic. It looks like it leads to a hidden treasure deep in the forest. What will you do?",
+          "choices": [
+            {
+              "text": "Follow the map",
+              "consequence": {
+                "next_dialogue": 2
+              }
+            },
+            {
+              "text": "Ignore it and go back to your room",
+              "consequence": {
+                "next_dialogue": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": 2,
+      "title": "Journey to the Forest",
+      "dialogues": [
+        {
+          "character": "Narrator",
+          "text": "You decide to follow the map, and it leads you deep into the forest. Suddenly, you hear rustling in the bushes. A wild animal might be near.",
+          "choices": [
+            {
+              "text": "Prepare to defend yourself",
+              "consequence": {
+                "next_dialogue": 4
+              }
+            },
+            {
+              "text": "Run away",
+              "consequence": {
+                "next_dialogue": 5
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": 3,
+      "title": "A Safe Choice",
+      "dialogues": [
+        {
+          "character": "Narrator",
+          "text": "You decide to stay in your room. But soon, you realize you might have missed the adventure of a lifetime. The map sits there, taunting you.",
+          "choices": [
+            {
+              "text": "Go back to the attic and take the map",
+              "consequence": {
+                "next_dialogue": 2
+              }
+            },
+            {
+              "text": "Forget about the treasure",
+              "consequence": {
+                "next_dialogue": 6
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": 4,
+      "title": "A Brave Encounter",
+      "dialogues": [
+        {
+          "character": "Narrator",
+          "text": "You stand firm as the rustling grows louder. A wild boar emerges from the bushes! With quick thinking, you defend yourself and scare it off.",
+          "choices": [
+            {
+              "text": "Continue the journey",
+              "consequence": {
+                "next_dialogue": 7
+              }
+            },
+            {
+              "text": "Head back home",
+              "consequence": {
+                "next_dialogue": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": 5,
+      "title": "The Escape",
+      "dialogues": [
+        {
+          "character": "Narrator",
+          "text": "You turn and flee from the wild animal, but the path is hard to navigate. You end up getting lost in the forest, and after hours of searching, you realize you're completely alone.",
+          "choices": [
+            {
+              "text": "Sit and wait for help",
+              "consequence": {
+                "next_dialogue": 6
+              }
+            },
+            {
+              "text": "Try to find a way out",
+              "consequence": {
+                "next_dialogue": 7
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": 6,
+      "title": "Lost Forever",
+      "dialogues": [
+        {
+          "character": "Narrator",
+          "text": "You sit and wait for hours, but no help comes. Eventually, you accept that you've missed your chance to find the treasure.",
+          "choices": [
+            {
+              "text": "End the journey",
+              "consequence": {
+                "next_dialogue": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter_id": 7,
+      "title": "The Hidden Treasure",
+      "dialogues": [
+        {
+          "character": "Narrator",
+          "text": "After days of searching, you finally uncover the hidden treasure beneath an old oak tree. It was worth the adventure.",
+          "choices": [
+            {
+              "text": "Celebrate your discovery",
+              "consequence": {
+                "next_dialogue": null
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
