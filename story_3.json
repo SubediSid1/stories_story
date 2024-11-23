@@ -1,0 +1,121 @@
+{
+    "id": "story3",
+    "title": "The Time Traveler's Dilemma",
+    "background": "https://example.com/time_travel_background.jpg",
+    "chapters": [
+      {
+        "chapter_id": 1,
+        "title": "The Clock",
+        "dialogues": [
+          {
+            "character": "Narrator",
+            "text": "You find an ancient pocket watch in your grandfather's attic. Upon winding it, you suddenly find yourself in the past—decades before you were born.",
+            "choices": [
+              {
+                "text": "Explore the past and learn about your ancestors",
+                "consequence": {
+                  "next_dialogue": 2
+                }
+              },
+              {
+                "text": "Try to fix the clock and return to the present",
+                "consequence": {
+                  "next_dialogue": 3
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "chapter_id": 2,
+        "title": "Meeting the Ancestors",
+        "dialogues": [
+          {
+            "character": "Narrator",
+            "text": "You meet your great-grandparents, but they don't recognize you. You quickly realize you could change history by interacting with them.",
+            "choices": [
+              {
+                "text": "Tell them who you are and warn them about the future",
+                "consequence": {
+                  "next_dialogue": 4
+                }
+              },
+              {
+                "text": "Stay quiet and observe their lives",
+                "consequence": {
+                  "next_dialogue": 5
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "chapter_id": 3,
+        "title": "The Paradox",
+        "dialogues": [
+          {
+            "character": "Narrator",
+            "text": "You accidentally change something small in history—a decision your great-grandfather makes—causing ripples in the timeline.",
+            "choices": [
+              {
+                "text": "Try to undo the change",
+                "consequence": {
+                  "next_dialogue": 6
+                }
+              },
+              {
+                "text": "Accept that things may never be the same again",
+                "consequence": {
+                  "next_dialogue": 7
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "chapter_id": 4,
+        "title": "Returning to the Present",
+        "dialogues": [
+          {
+            "character": "Narrator",
+            "text": "After a tense journey to fix the timeline, you finally manage to return to your own time. But something feels off...",
+            "choices": [
+              {
+                "text": "Investigate the changes in the present",
+                "consequence": {
+                  "next_dialogue": 8
+                }
+              },
+              {
+                "text": "Live with the changes and never look back",
+                "consequence": {
+                  "next_dialogue": 9
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "chapter_id": 5,
+        "title": "The End of Time",
+        "dialogues": [
+          {
+            "character": "Narrator",
+            "text": "You discover that your actions in the past have had disastrous consequences in the present. You regret ever touching the watch.",
+            "choices": [
+              {
+                "text": "End the journey",
+                "consequence": {
+                  "next_dialogue": null
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
