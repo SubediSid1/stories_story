@@ -1,14 +1,14 @@
 [
   {
-    "story_id": "story1",
+    "story_id": "story_1",
     "version": "1"
   },
   {
-    "story_id": "story2",
+    "story_id": "story_2",
     "version": "1"
   },
   {
-    "story_id": "story3",
+    "story_id": "story_3",
     "version": "1"
   }
 ]
